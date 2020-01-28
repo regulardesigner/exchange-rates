@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "www.regulardesigner.com/exchange-rates/static/css/main.d1b05096.chunk.css",
-    "main.js": "www.regulardesigner.com/exchange-rates/static/js/main.42b547e7.chunk.js",
-    "main.js.map": "www.regulardesigner.com/exchange-rates/static/js/main.42b547e7.chunk.js.map",
-    "runtime-main.js": "www.regulardesigner.com/exchange-rates/static/js/runtime-main.f0209864.js",
-    "runtime-main.js.map": "www.regulardesigner.com/exchange-rates/static/js/runtime-main.f0209864.js.map",
-    "static/js/2.2198a38b.chunk.js": "www.regulardesigner.com/exchange-rates/static/js/2.2198a38b.chunk.js",
-    "static/js/2.2198a38b.chunk.js.map": "www.regulardesigner.com/exchange-rates/static/js/2.2198a38b.chunk.js.map",
-    "index.html": "www.regulardesigner.com/exchange-rates/index.html",
-    "precache-manifest.2701f0269ca90e1f85624e93a12ac13a.js": "www.regulardesigner.com/exchange-rates/precache-manifest.2701f0269ca90e1f85624e93a12ac13a.js",
-    "service-worker.js": "www.regulardesigner.com/exchange-rates/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "www.regulardesigner.com/exchange-rates/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.2198a38b.chunk.js.LICENSE": "www.regulardesigner.com/exchange-rates/static/js/2.2198a38b.chunk.js.LICENSE",
-    "static/media/logo.svg": "www.regulardesigner.com/exchange-rates/static/media/logo.5d5d9eef.svg"
+    "main.css": "/exchange/static/css/main.d1b05096.chunk.css",
+    "main.js": "/exchange/static/js/main.60dc99e8.chunk.js",
+    "main.js.map": "/exchange/static/js/main.60dc99e8.chunk.js.map",
+    "runtime-main.js": "/exchange/static/js/runtime-main.ccdc48f0.js",
+    "runtime-main.js.map": "/exchange/static/js/runtime-main.ccdc48f0.js.map",
+    "static/js/2.2198a38b.chunk.js": "/exchange/static/js/2.2198a38b.chunk.js",
+    "static/js/2.2198a38b.chunk.js.map": "/exchange/static/js/2.2198a38b.chunk.js.map",
+    "index.html": "/exchange/index.html",
+    "precache-manifest.39998e7b57cba4e2573741b36c7ece82.js": "/exchange/precache-manifest.39998e7b57cba4e2573741b36c7ece82.js",
+    "service-worker.js": "/exchange/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/exchange/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2198a38b.chunk.js.LICENSE": "/exchange/static/js/2.2198a38b.chunk.js.LICENSE",
+    "static/media/logo.svg": "/exchange/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0209864.js",
+    "static/js/runtime-main.ccdc48f0.js",
     "static/js/2.2198a38b.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.42b547e7.chunk.js"
+    "static/js/main.60dc99e8.chunk.js"
   ]
 }
