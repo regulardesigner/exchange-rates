@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87b630848f369a9a1fe42aac3e96f1a0",
+    "revision": "a9bbcd9361f20f0edbe4a7c6e6a8db35",
     "url": "/exchange-rates/index.html"
   },
   {
-    "revision": "ea30056cf6d6a2bf83cd",
+    "revision": "cef2a44865535a3acb81",
     "url": "/exchange-rates/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "95dfd90e590f9131a016",
-    "url": "/exchange-rates/static/js/2.2198a38b.chunk.js"
+    "revision": "943b1491de74491471de",
+    "url": "/exchange-rates/static/js/2.31c8ec5d.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/exchange-rates/static/js/2.2198a38b.chunk.js.LICENSE"
+    "url": "/exchange-rates/static/js/2.31c8ec5d.chunk.js.LICENSE"
   },
   {
-    "revision": "ea30056cf6d6a2bf83cd",
-    "url": "/exchange-rates/static/js/main.bcfd2192.chunk.js"
+    "revision": "cef2a44865535a3acb81",
+    "url": "/exchange-rates/static/js/main.8934e54d.chunk.js"
   },
   {
     "revision": "e8f22e279e29249f3d3d",
