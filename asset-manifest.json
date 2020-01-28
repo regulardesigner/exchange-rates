@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/exchange/static/css/main.d1b05096.chunk.css",
-    "main.js": "/exchange/static/js/main.60dc99e8.chunk.js",
-    "main.js.map": "/exchange/static/js/main.60dc99e8.chunk.js.map",
-    "runtime-main.js": "/exchange/static/js/runtime-main.ccdc48f0.js",
-    "runtime-main.js.map": "/exchange/static/js/runtime-main.ccdc48f0.js.map",
-    "static/js/2.2198a38b.chunk.js": "/exchange/static/js/2.2198a38b.chunk.js",
-    "static/js/2.2198a38b.chunk.js.map": "/exchange/static/js/2.2198a38b.chunk.js.map",
-    "index.html": "/exchange/index.html",
-    "precache-manifest.39998e7b57cba4e2573741b36c7ece82.js": "/exchange/precache-manifest.39998e7b57cba4e2573741b36c7ece82.js",
-    "service-worker.js": "/exchange/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/exchange/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.2198a38b.chunk.js.LICENSE": "/exchange/static/js/2.2198a38b.chunk.js.LICENSE",
-    "static/media/logo.svg": "/exchange/static/media/logo.5d5d9eef.svg"
+    "main.css": "/exchange-rates/static/css/main.d1b05096.chunk.css",
+    "main.js": "/exchange-rates/static/js/main.bcfd2192.chunk.js",
+    "main.js.map": "/exchange-rates/static/js/main.bcfd2192.chunk.js.map",
+    "runtime-main.js": "/exchange-rates/static/js/runtime-main.9579d85c.js",
+    "runtime-main.js.map": "/exchange-rates/static/js/runtime-main.9579d85c.js.map",
+    "static/js/2.2198a38b.chunk.js": "/exchange-rates/static/js/2.2198a38b.chunk.js",
+    "static/js/2.2198a38b.chunk.js.map": "/exchange-rates/static/js/2.2198a38b.chunk.js.map",
+    "index.html": "/exchange-rates/index.html",
+    "precache-manifest.badf9d2e78650d444fc7c286567d8d0d.js": "/exchange-rates/precache-manifest.badf9d2e78650d444fc7c286567d8d0d.js",
+    "service-worker.js": "/exchange-rates/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/exchange-rates/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2198a38b.chunk.js.LICENSE": "/exchange-rates/static/js/2.2198a38b.chunk.js.LICENSE",
+    "static/media/logo.svg": "/exchange-rates/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccdc48f0.js",
+    "static/js/runtime-main.9579d85c.js",
     "static/js/2.2198a38b.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.60dc99e8.chunk.js"
+    "static/js/main.bcfd2192.chunk.js"
   ]
 }
