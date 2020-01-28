@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "www.regulardesigner.com/exchange/static/css/main.d1b05096.chunk.css",
+    "main.js": "www.regulardesigner.com/exchange/static/js/main.7bf7c360.chunk.js",
+    "main.js.map": "www.regulardesigner.com/exchange/static/js/main.7bf7c360.chunk.js.map",
+    "runtime-main.js": "www.regulardesigner.com/exchange/static/js/runtime-main.aac2a769.js",
+    "runtime-main.js.map": "www.regulardesigner.com/exchange/static/js/runtime-main.aac2a769.js.map",
+    "static/js/2.2198a38b.chunk.js": "www.regulardesigner.com/exchange/static/js/2.2198a38b.chunk.js",
+    "static/js/2.2198a38b.chunk.js.map": "www.regulardesigner.com/exchange/static/js/2.2198a38b.chunk.js.map",
+    "index.html": "www.regulardesigner.com/exchange/index.html",
+    "precache-manifest.acd57a677950616aa99cb77b981ce8b2.js": "www.regulardesigner.com/exchange/precache-manifest.acd57a677950616aa99cb77b981ce8b2.js",
+    "service-worker.js": "www.regulardesigner.com/exchange/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "www.regulardesigner.com/exchange/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2198a38b.chunk.js.LICENSE": "www.regulardesigner.com/exchange/static/js/2.2198a38b.chunk.js.LICENSE",
+    "static/media/logo.svg": "www.regulardesigner.com/exchange/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aac2a769.js",
+    "static/js/2.2198a38b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.7bf7c360.chunk.js"
+  ]
+}
