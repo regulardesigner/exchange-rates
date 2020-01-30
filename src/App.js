@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.scss';
 
-import Tips from './components/Tips';
+import Tips from './components/Tips/';
 
 class App extends React.Component {
   constructor(props) {
@@ -12,18 +12,31 @@ class App extends React.Component {
       fetchError: false,
       rates: null,
       currencies: {
-        base: 'EUR',
-        selected: 'USD',
+        base: 'USD',
+        selected: 'EUR',
       },
       exchange: {
         base: 1,
         selected: null,
+      },
+      language: 'us',
+      i18n: {
+        title: {
+          us: 'Tips calculator',
+          es: 'Calculadora de propinas',
+          fr: 'Calcul de pourboires',
+        },
+        update: {
+          us: 'Exchange rates updated',
+          es: 'Actualizaciones de tasas de cambio',
+          fr: 'Mis à jour du taux de change',
+        } 
       }
     };
   }
 
   componentDidMount() {
-    fetch('https://api.exchangeratesapi.io/latest')
+    fetch('https://api.exchangeratesapi.io/latest?base=USD')
     .then((respond) => respond.json())
     .catch((error) => {
       console.error(error);
@@ -38,7 +51,7 @@ class App extends React.Component {
         date: data.date,
         exchange: {
           base: 1,
-          selected: data.rates.USD,
+          selected: data.rates.EUR,
         }
       })
     });
@@ -80,7 +93,7 @@ class App extends React.Component {
           currencies: {
             base: value,
             selected: value,
-          },
+          }
         })
       });
     } else {
@@ -98,6 +111,8 @@ class App extends React.Component {
   screen() {
     const { base, selected } = this.state.exchange;
     const date = this.state.date;
+    const { i18n } = this.state;
+    const { language } = this.state;
     //const { base, selected } = this.state.currencies;
     return (
       <div className="app-container">
@@ -134,7 +149,7 @@ class App extends React.Component {
             </div>
           </div>
         </section>
-        <Tips result={base} currency={this.state.currencies.base} />
+        <Tips result={base} currency={this.state.currencies.base} title={i18n.title[language]} />
       <footer style={{
         fontSize: '1em',
         textAlign: 'center',
@@ -142,7 +157,7 @@ class App extends React.Component {
         textTransform: 'uppercase',
         fontWeight: 'bold',
         color: '#222525'
-      }}>Rates updated: {date}</footer>
+      }}>{i18n.update[language]}: {date}</footer>
       </div>
     )
   }
