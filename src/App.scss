@@ -53,6 +53,9 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: stretch;
+      &:first-child {
+        box-shadow: inset 0 0 10px 0 darken($color: #078080, $amount: 15);
+      }
 
       &-item {
         min-width: 0;
@@ -65,7 +68,7 @@
         background-color: transparent;
         border: none;
         &:focus {
-          background-color: rgba(255,255,255,.2);
+          //background-color: rgba(255,255,255,.2);
         }
       }
 
@@ -80,6 +83,7 @@
         -moz-appearance: none;
         -webkit-appearance: none;
         appearance: none;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, .44);
       }
     }
     .from {
