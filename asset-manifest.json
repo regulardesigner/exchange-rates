@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/exchange-rates/static/css/main.a3340348.chunk.css",
-    "main.js": "/exchange-rates/static/js/main.3bc0f62e.chunk.js",
-    "main.js.map": "/exchange-rates/static/js/main.3bc0f62e.chunk.js.map",
+    "main.js": "/exchange-rates/static/js/main.d24596e6.chunk.js",
+    "main.js.map": "/exchange-rates/static/js/main.d24596e6.chunk.js.map",
     "runtime-main.js": "/exchange-rates/static/js/runtime-main.9579d85c.js",
     "runtime-main.js.map": "/exchange-rates/static/js/runtime-main.9579d85c.js.map",
     "static/js/2.b46b74fa.chunk.js": "/exchange-rates/static/js/2.b46b74fa.chunk.js",
     "static/js/2.b46b74fa.chunk.js.map": "/exchange-rates/static/js/2.b46b74fa.chunk.js.map",
     "index.html": "/exchange-rates/index.html",
-    "precache-manifest.c38600efdd5e5ca408f27652de54b975.js": "/exchange-rates/precache-manifest.c38600efdd5e5ca408f27652de54b975.js",
+    "precache-manifest.8c12238f156f4d2b9b3f8ed938311bca.js": "/exchange-rates/precache-manifest.8c12238f156f4d2b9b3f8ed938311bca.js",
     "service-worker.js": "/exchange-rates/service-worker.js",
     "static/css/main.a3340348.chunk.css.map": "/exchange-rates/static/css/main.a3340348.chunk.css.map",
     "static/js/2.b46b74fa.chunk.js.LICENSE": "/exchange-rates/static/js/2.b46b74fa.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9579d85c.js",
     "static/js/2.b46b74fa.chunk.js",
     "static/css/main.a3340348.chunk.css",
-    "static/js/main.3bc0f62e.chunk.js"
+    "static/js/main.d24596e6.chunk.js"
   ]
 }
