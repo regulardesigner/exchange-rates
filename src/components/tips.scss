@@ -1,0 +1,27 @@
+.tips {
+  background-color: lighten(#232323, 75);
+  border-radius: .8em;
+  padding: .1em;
+  &-boxes {
+    display: flex;
+    // flex-direction set in @media query
+    justify-content: space-around;
+    align-items: center;
+
+    div {
+      border-radius: .4rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      background-color: lighten($color: #078080, $amount: 5);
+      font-size: 2em;
+      color: white;
+      // padding set in @media query
+
+      .emo {
+        display: inline-block;
+        margin-right: .4rem;
+      }
+    }
+  }
+}

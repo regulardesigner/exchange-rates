@@ -53,6 +53,7 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: stretch;
+
       &-item {
         min-width: 0;
         flex-grow: 1;
@@ -67,6 +68,19 @@
           background-color: rgba(255,255,255,.2);
         }
       }
+
+      select {
+        border: none;
+        border-radius: .4em;
+        font-weight: bold;
+        padding: 0 .8rem;
+        color: #078080;
+        background-color: white;
+        margin-right: 0.4rem;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+      }
     }
     .from {
       background-color: #078080;
@@ -78,10 +92,33 @@
 
 }
 
+// X-small devices (mobile portrait down 576px)
+@media (max-width: 575.99px) {
+  .tips-boxes {
+    flex-direction: column;
+    div {
+      width: 90%;
+      padding: 1em;
+      justify-content: center;
+      margin-bottom: .6rem;
+      &:last-child {
+        margin-bottom: 1.4rem;
+      }
+    }
+  }
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .app {
     width: 100%;
+  }
+  .tips-boxes {
+    flex-direction: row;
+    div {
+      padding: 2em;
+      margin-bottom: 1.4rem;
+    }
   }
 }
 

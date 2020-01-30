@@ -1,5 +1,8 @@
 import React from 'react';
+
 import './App.scss';
+
+import Tips from './components/Tips';
 
 class App extends React.Component {
   constructor(props) {
@@ -99,7 +102,9 @@ class App extends React.Component {
       <div className="app-container">
         <header className="app-header">
           <h1 style={{ marginTop: "2rem", textAlign: "center" }}>Exchange rates</h1>
-          <div className="app-exchange">
+        </header>
+        <section>
+        <div className="app-exchange">
             <div className="input from">
               <input className="input-item" type="number" name="base" value={base} onChange={this.handleChange}/>
               <select
@@ -127,7 +132,8 @@ class App extends React.Component {
               </select>
             </div>
           </div>
-        </header>
+        </section>
+        <Tips result={base} currency={this.state.currencies.base} />
       </div>
     )
   }
