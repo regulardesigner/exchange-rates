@@ -79,7 +79,7 @@ class App extends React.Component {
           },
           currencies: {
             base: value,
-            selected: 'USD',
+            selected: value,
           },
         })
       });
