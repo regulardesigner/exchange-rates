@@ -97,6 +97,7 @@ class App extends React.Component {
 
   screen() {
     const { base, selected } = this.state.exchange;
+    const date = this.state.date;
     //const { base, selected } = this.state.currencies;
     return (
       <div className="app-container">
@@ -134,6 +135,14 @@ class App extends React.Component {
           </div>
         </section>
         <Tips result={base} currency={this.state.currencies.base} />
+      <footer style={{
+        fontSize: '1em',
+        textAlign: 'center',
+        marginTop: '1.6em',
+        textTransform: 'uppercase',
+        fontWeight: 'bold',
+        color: '#222525'
+      }}>Rates updated: {date}</footer>
       </div>
     )
   }
