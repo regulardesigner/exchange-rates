@@ -33,6 +33,11 @@ class App extends React.Component {
           es: 'Calculadora de propinas',
           fr: 'Calcul de pourboires',
         },
+        subTitle: {
+          us: 'waiter and waitress',
+          es: 'camarero y camarera',
+          fr: 'serveur et serveuse',
+        },
         update: {
           us: 'Exchange rates updated',
           es: 'Actualizaciones de tasas de cambio',
@@ -146,7 +151,6 @@ class App extends React.Component {
     const { language } = this.state;
     const drowerStatus = this.state.languageDrawer;
     const languageAvailable = this.state.i18n.available;
-    //const { base, selected } = this.state.currencies;
     return (
       <div className="app-container">
         <header className="app-header">
@@ -189,7 +193,7 @@ class App extends React.Component {
             </div>
           </div>
         </section>
-        <Tips result={base} currency={this.state.currencies.base} title={i18n.title[language]} />
+        <Tips result={base} currency={this.state.currencies.base} title={i18n.title[language]} subTitle={i18n.subTitle[language]} />
       <footer style={{
         fontSize: '1em',
         textAlign: 'center',
