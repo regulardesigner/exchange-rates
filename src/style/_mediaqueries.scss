@@ -1,0 +1,48 @@
+// X-small devices (mobile portrait down 576px)
+@media (max-width: 575.99px) {
+  .tips-boxes {
+    flex-direction: column;
+    div {
+      width: 90%;
+      padding: 1em;
+      justify-content: center;
+      margin-bottom: .6rem;
+      &:last-child {
+        margin-bottom: 1.4rem;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .app {
+    width: 100%;
+  }
+  .tips-boxes {
+    flex-direction: row;
+    div {
+      padding: 2em;
+      margin-bottom: 1.4rem;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .app {
+    max-width: 720px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .app {
+    max-width: 920px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

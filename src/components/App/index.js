@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.scss';
 
-import Tips from './components/Tips/';
+import Tips from '../Tips';
 
 class App extends React.Component {
   constructor(props) {
