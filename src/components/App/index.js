@@ -20,7 +20,14 @@ class App extends React.Component {
         selected: null,
       },
       language: 'us',
+      languageDrawer: 'close',
       i18n: {
+        available: ['us', 'es', 'fr'],
+        baseline: {
+          us: 'Get instant exchange rate',
+          es: 'Tipo de cambio instantáneo',
+          fr: 'Taux de change instantané',
+        },
         title: {
           us: 'Tips calculator',
           es: 'Calculadora de propinas',
@@ -63,6 +70,30 @@ class App extends React.Component {
     const { name, value } = event.target;
     exchange[name] = value;
     this.setState({ exchange });
+  }
+
+  handleLanguageChange = event => {
+    event.preventDefault();
+    const clickedLanguage = event.target.name;
+    this.setState({
+      language: clickedLanguage,
+      languageDrawer: 'close',
+    })
+  }
+
+  handleLanguageDrawer = event => {
+    event.preventDefault();
+    const drawer = this.state.languageDrawer;
+    console.log(drawer);
+    if(drawer === 'close') {
+      this.setState({
+        languageDrawer: 'open',
+      })
+    } else {
+      this.setState({
+        languageDrawer: 'close',
+      })
+    }
   }
 
   handleCurrencyChange = event => {
@@ -113,11 +144,20 @@ class App extends React.Component {
     const date = this.state.date;
     const { i18n } = this.state;
     const { language } = this.state;
+    const drowerStatus = this.state.languageDrawer;
+    const languageAvailable = this.state.i18n.available;
     //const { base, selected } = this.state.currencies;
     return (
       <div className="app-container">
         <header className="app-header">
-          <h1 style={{ marginTop: "2rem", textAlign: "center" }}>Exchange rates</h1>
+          <ul className={`language-selector ${drowerStatus}`}>
+            <li><a href="#default" className={'language-selector-default'} name={'default'} onClick={this.handleLanguageDrawer}>{language}</a></li>
+            {languageAvailable.map((lang, index) => (
+              <li><a id={index} className={'language-selector-'+lang} href={`#lang=${lang}`} name={lang} onClick={this.handleLanguageChange}>{lang}</a></li>
+            ))}
+          </ul>
+          <h1 style={{ marginTop: "1.4rem", textAlign: "center", marginBottom: '.4em' }}>Exchange rates</h1>
+          <h2 className="baseline">{i18n.baseline[language]}</h2>
         </header>
         <section>
         <div className="app-exchange">

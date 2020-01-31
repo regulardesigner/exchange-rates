@@ -22,6 +22,55 @@
     color: #232323;
   }
 
+  header {
+    h2.baseline {
+      text-align: center;
+      font-style: italic;
+      color: rgba(#232323, .45);
+      font-size: 2em;
+      margin-top: 0;
+    }
+    .language-selector {
+      background-color: white;
+      overflow: hidden;
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      top: 1.8em;
+      right: 0;
+      //border:1px solid black;
+      height: 60px;
+      width: 60px;
+      border-top-left-radius: 4.4em;
+      border-bottom-left-radius: 4.4em;
+      box-shadow: black 0 0 10px 0;
+      &.close {
+        width: 60px;
+      }
+      &.open {
+        width: 240px;
+      }
+      li {
+        flex: 1 0 0;
+        //background-color: chartreuse;
+        a {
+          text-transform: uppercase;
+          display: block;
+          text-align: center;
+          line-height: 60px;
+          font-size: 2.4em;
+          font-weight: bold;
+          padding-left: 10px;
+          width: 60px;
+          height: 60px;
+          &.language-selector-default {
+            color: #f45d48;
+          }
+        }
+      }
+    }
+  }
+
   p {
     font-size: 1.6em;
     line-height: 1.6rem;
